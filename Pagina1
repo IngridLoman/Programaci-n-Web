@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Blog">
+	<meta name="keywords" content="Mexico,Tokio,Londres,Paris">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ejemplo de Galeria</title>
+<style>
+div.contenedor{
+	width:100%;
+	border: 1px solid grey;
+	}
+
+header, footer{
+padding: 1 em;
+color: white;
+background-color: black;
+clear: left;
+text-align: center;
+}
+
+nav{
+float: left;
+max-width:160px;
+margin:0;
+padding: 1em;
+}
+
+nav ul {
+list-style-type: none;
+padding: 0;
+}
+
+nav ul a {
+text-decoration: none;
+}
+
+article {
+margin-left: 170px;
+border-left: 1px solid grey;
+padding: 1 em;
+overflow: hidden;
+}
+
+</style>
+
+</head>
+
+<body>
+<div class="contenedor">
+
+<header>
+	<h1>Galeria de Ciudades</h1>
+</header>
+
+<nav>
+	<ul>
+	    <li><a href="Mexico.html">M&eacute;xico</a></li>
+	    <li><a href="Paris.html">Paris</a></li>
+	    <li><a href="Tokyo.html">Tokyo</a></li>
+	    <li><a href="Londres.html">Londres</a></li>
+	</ul>
+</nav>
+	
+	<section>
+	        <article>
+		<h1 align="center"> <Span Style="color:red">Blog de Ciudades</span></h1>
+		<p>La ciudad de M&eacute;xico es la blablabla mas bla bla mas bal mablam bala, mas bla dhssjsjjs </p>
+		<p>Paris es las mas blanbladi auz, berde, texto de m%aacute;s adada agagga baklaaa blaaa blaahhshd </p>
+		</article>
+	</section>
+
+	<footer>Copyrigth &copy; itorizaba.edu.mx</footer>
+</div>
+</body>
+</html>
